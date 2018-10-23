@@ -43,7 +43,7 @@
             setActive () {
                 const activeKey = this.getActiveKey();
 
-                this.$children.forEach((child, index) => {
+                this.$children.$children.forEach((child, index) => {
                     const name = child.name || index.toString();
 
                     child.isActive = activeKey.indexOf(name) > -1;

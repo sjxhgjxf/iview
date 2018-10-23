@@ -115,6 +115,7 @@ const components = {
     OptionGroup,
     Page,
     Panel: Collapse.Panel,
+    PanelWithDrag: CollapseWithDrag.Panel,
     Poptip,
     Progress,
     Radio,
