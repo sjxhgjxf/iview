@@ -15,6 +15,7 @@ import Cell from './components/cell';
 import Checkbox from './components/checkbox';
 import Circle from './components/circle';
 import Collapse from './components/collapse';
+import CollapseWithDrag from './components/collapse-with-drag';
 import ColorPicker from './components/color-picker';
 import Content from './components/content';
 import DatePicker from './components/date-picker';
@@ -82,6 +83,7 @@ const components = {
     CheckboxGroup: Checkbox.Group,
     Col,
     Collapse,
+    CollapseWithDrag,
     ColorPicker,
     Content: Content,
     DatePicker,
